@@ -1,0 +1,14 @@
+<div class='border-bottom row'>
+  <div class='col-9 mt-4 mb-4'>
+    <h4 class='mt-4 glow' style="color:rgb(150,150,150)">{{model['title']}}</h4>
+    {%if 'built-by' in model %}
+    <div>
+    <h5 class='mb-4' >built by : {{model['built-by']}}</h5>
+    </div>
+    {%endif%}
+  </div>  
+  <div class='col-3  mt-5 mb-4''>
+    <button type="button" class="btn btn-outline-primary">Show</button>
+  </div> 
+         
+</div>
